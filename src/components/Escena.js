@@ -18,7 +18,7 @@ class Escena extends Phaser.Scene{
     this.load.image('bomb', 'img/bomb.png');
     this.load.spritesheet('dude', 
         'img/dude.png',
-        { frameWidth: 64, frameHeight: 64 });
+        { frameWidth: 64, frameHeight: 56 });
     this.load.spritesheet('bird', 
         'img/bird.png',
         { frameWidth: 90, frameHeight: 93 });
