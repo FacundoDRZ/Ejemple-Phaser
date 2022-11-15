@@ -29,6 +29,8 @@ class Escena extends Phaser.Scene{
         this.add.image(400,300, 'sky');
         //se crean las plataformas y se les asigna un comportamiento estatico
         this.platforms = this.physics.add.staticGroup();
+        //TUKI
+        
 
         this.platforms.create(400, 568, 'ground').setScale(2).refreshBody();
 
